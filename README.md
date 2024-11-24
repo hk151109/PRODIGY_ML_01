@@ -105,7 +105,8 @@ pip install numpy pandas scikit-learn matplotlib
 - The predictions are saved in `PredictedPrice.csv`, containing only essential columns (`Id` and `SalePrice`).
 
 ## Dataset
-Kaggle: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
+Kaggle: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data.
+
 The dataset is available in the `house-prices_dataset` folder, including:
 
 - `train.csv`: Raw training data.
