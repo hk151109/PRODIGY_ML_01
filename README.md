@@ -17,7 +17,7 @@ This repository contains the implementation of a **Linear Regression model** to 
 9. [License](#license)
 
 ## Project Overview
-The project is a part of **Task 1** of the Prodigy InfoTech internship and includes:
+The project includes:
 - Preprocessing raw data for cleaning and feature preparation.
 - Building a Linear Regression model enhanced with **Polynomial Features** to capture non-linear relationships.
 - Evaluating the model's performance using metrics like **Mean Squared Error (MSE)** and **R-squared (R²)**.
@@ -40,7 +40,7 @@ The project is a part of **Task 1** of the Prodigy InfoTech internship and inclu
 ```
 │   data_cleaning.py
 │   PredictedPrice.csv
-│   task1.py
+│   price_prediction.py
 │
 ├───cleaned_dataset
 │       test_cleaned.csv
@@ -66,10 +66,10 @@ This will generate cleaned datasets (`train_cleaned.csv` and `test_cleaned.csv`)
 
 ### 2. Model Training and Prediction
 
-Run the `task1.py` script to train the Linear Regression model and generate predictions:
+Run the `price_prediction.py` script to train the Linear Regression model and generate predictions:
 
 ```bash
-python task1.py
+python price_prediction.py
 ```
 
 The predicted prices will be saved in `PredictedPrice.csv`.
@@ -82,7 +82,7 @@ The project includes visualizations to analyze model accuracy:
 - **Residual Plot**: Residual errors.
 - **Histogram**: Distribution of residuals.
 
-These visualizations are automatically generated when running the `task1.py` script.
+These visualizations are automatically generated when running the `price_prediction.py` script.
 
 ## Dependencies
 
